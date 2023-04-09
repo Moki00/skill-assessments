@@ -1,6 +1,6 @@
 ## Angular
 
-#### Q1. What is the purpose of the ViewChild decorator in this component class?
+## Q1. What is the purpose of the ViewChild decorator in this component class?
 
 ```ts
 @Component({
@@ -19,7 +19,7 @@ export class UserDetailsComponent {
 
 [DigitalOcean - viewchild-access-component](https://www.digitalocean.com/community/tutorials/angular-viewchild-access-component)
 
-#### Q2. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
+## Q2. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
 
 - [ ] Add the string name given to the FormControl to an attribute named controls on the <form> element to indicate what fields it should include.
 - [ ] Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.
@@ -28,7 +28,7 @@ export class UserDetailsComponent {
 
 [Angular.io - Reactive Form Groups](https://angular.io/guide/reactive-forms#creating-nested-form-groups)
 
-#### Q3. What is the difference between the `paramMap` and the `queryParamMap` on the `ActivatedRoute` class?
+## Q3. What is the difference between the `paramMap` and the `queryParamMap` on the `ActivatedRoute` class?
 
 - [ ] The paramMap is an object literal of the parameters in a route's URL path. The queryParamMap is an Observable of those same parameters.
 - [ ] The paramMap is an Observable that contains the parameter values that are part of a route's URL path. The queryParamMap is a method that takes in an array of keys and is used to find specific parameters in the paramMap.
@@ -37,7 +37,7 @@ export class UserDetailsComponent {
 
 [StackOverflow](https://stackoverflow.com/a/49617621)
 
-#### Q4. Based on the following usage of the async pipe, and assuming the users class field is an Observable, how many subscriptions to the users Observable are being made?
+## Q4. Based on the following usage of the async pipe, and assuming the users class field is an Observable, how many subscriptions to the users Observable are being made?
 
 ```html
 <h2>Names</h2>
@@ -55,7 +55,7 @@ export class UserDetailsComponent {
 
 [UltimateCourses](https://ultimatecourses.com/blog/angular-ngfor-async-pipe)
 
-#### Q5. How can you use the HttpClient to send a POST request to an endpoint from within an addOrder function in this OrderService?
+## Q5. How can you use the HttpClient to send a POST request to an endpoint from within an addOrder function in this OrderService?
 
 ```ts
 export class OrderService {
@@ -74,7 +74,7 @@ export class OrderService {
 
 [Angular.io - Sending data to server](https://angular.io/guide/http#sending-data-to-a-server)
 
-#### Q6. What is the RouterModule.forRoot method used for?
+## Q6. What is the RouterModule.forRoot method used for?
 
 - [ ] Registering any providers that you intend to use in routed components.
 - [x] Registering route definitions at the root application level.
@@ -83,7 +83,7 @@ export class OrderService {
 
 [O'REILLY](https://www.oreilly.com/library/view/switching-to-angular/9781788620703/c9e90774-0e10-410b-bd20-d3e9e0b8d117.xhtml)
 
-#### Q7. Which DOM elements will this component metadata selector match on?
+## Q7. Which DOM elements will this component metadata selector match on?
 
 ```ts
 @Component({
@@ -99,7 +99,7 @@ export class OrderService {
 
 [Angular.io - Component Metadata](https://angular.io/guide/architecture-components#component-metadata)
 
-#### Q8. What is the correct template syntax for using the built-in ngFor structural directive to render out a list of productNames?
+## Q8. What is the correct template syntax for using the built-in ngFor structural directive to render out a list of productNames?
 
 - [ ] A
 
@@ -137,7 +137,7 @@ export class OrderService {
 
 [Angular.io- Structural Directives](https://angular.io/guide/built-in-directives#listing-items-with-ngfor)
 
-#### Q9. What are the two component decorator metadata properties used to set up CSS styles for a component?
+## Q9. What are the two component decorator metadata properties used to set up CSS styles for a component?
 
 - [ ] viewEncapsulation and viewEncapsulationFiles.
 - [ ] There is only one and it is the property named css.
@@ -146,7 +146,7 @@ export class OrderService {
 
 [Angular.io - Component Styles](https://angular.io/guide/component-styles)
 
-#### Q10. With the following component class, what template syntax would you use in the template to display the value of the title class field?
+## Q10. With the following component class, what template syntax would you use in the template to display the value of the title class field?
 
 ```ts
 @Component({
@@ -165,7 +165,7 @@ class TitleCardComponent {
 
 [Angular.io - String Interpolation or Text Interpolation](https://angular.io/guide/interpolation)
 
-#### Q11. What is the purpose of the valueChanges method on a FormControl?
+## Q11. What is the purpose of the valueChanges method on a FormControl?
 
 - [ ] It is used to configure what values are allowed for the control.
 - [ ] It is used to change the value of a control to a new value. You would call that method and pass in the new value for the form field. It even supports passing in an array of values that can be set over time.
@@ -174,7 +174,7 @@ class TitleCardComponent {
 
 [Angular.io - Displaying a from control value](https://angular.io/guide/reactive-forms#displaying-a-form-control-value)
 
-#### Q12. What directive is used to link an `<a>` tag to routing?
+## Q12. What directive is used to link an `<a>` tag to routing?
 
 - [ ] routeTo
 - [x] routerLink
@@ -183,7 +183,7 @@ class TitleCardComponent {
 
 [Angular.io - RouterLink](https://angular.io/api/router/RouterLink#description)
 
-#### Q13. What is the Output decorator used for in this component class?
+## Q13. What is the Output decorator used for in this component class?
 
 ```ts
 @Component({
@@ -202,7 +202,7 @@ export class ShoppingCartComponent {
 
 [Angular.io - Sending data to parent component](https://angular.io/guide/inputs-outputs#sending-data-to-a-parent-component)
 
-#### Q14. What is the difference between these two markup examples for conditionally handling display?
+## Q14. What is the difference between these two markup examples for conditionally handling display?
 
 ```html
 <div *ngIf="isVisible">Active</div>
@@ -216,7 +216,7 @@ export class ShoppingCartComponent {
 
 [StackOverflow](https://stackoverflow.com/a/39778145)
 
-#### Q15. How can you disable the submit button when the form has errors in this template-driven forms example?
+## Q15. How can you disable the submit button when the form has errors in this template-driven forms example?
 
 ```html
 <form #userForm="ngForm">
@@ -252,7 +252,7 @@ export class ShoppingCartComponent {
 
 [Angular.io - Submit the form with ngSubmit](https://angular.io/guide/forms#submit-the-form-with-ngsubmit)
 
-#### Q16. You want to see what files would be generated by creating a new contact-card component. Which command would you use?
+## Q16. You want to see what files would be generated by creating a new contact-card component. Which command would you use?
 
 - [x] ng generate component contact-card --dry-run
 - [ ] ng generate component contact-card --no-files
@@ -261,7 +261,7 @@ export class ShoppingCartComponent {
 
 [Angular.io - ng generate options](https://angular.io/cli/generate#options)
 
-#### Q17. Based on the following component, what template syntax would you use to bind the TitleCardComponent's titleText field to the h1 element title property?
+## Q17. Based on the following component, what template syntax would you use to bind the TitleCardComponent's titleText field to the h1 element title property?
 
 ```ts
 @Component({
@@ -280,7 +280,7 @@ export class TitleCardComponent {
 
 [Angular.io - String Interpolation](https://angular.io/guide/interpolation)
 
-#### Q18. What are Angular lifecycle hooks?
+## Q18. What are Angular lifecycle hooks?
 
 - [ ] loggers for tracking the health of an Angular app
 - [ ] providers that can be used to track the instances of components
@@ -289,7 +289,7 @@ export class TitleCardComponent {
 
 [Angular.io - Lifecycle hooks](https://angular.io/guide/lifecycle-hooks)
 
-#### Q19. Pick the best description for this template syntax code:
+## Q19. Pick the best description for this template syntax code:
 
 ```html
 <span>Boss: {{job?.bossName}} </span>
@@ -302,7 +302,7 @@ export class TitleCardComponent {
 
 [StackOverflow](https://stackoverflow.com/a/60182134)
 
-#### Q20. How would you configure a route definition for a UserDetailComponent that supports the URL path user/23 (where 23 represents the id of the requested user)?
+## Q20. How would you configure a route definition for a UserDetailComponent that supports the URL path user/23 (where 23 represents the id of the requested user)?
 
 - [x] `{ path: 'user/:id', component: UserDetailComponent }`
 - [ ] `{ url: 'user/:id', routedComponent: UserDetailComponent }`
@@ -311,7 +311,7 @@ export class TitleCardComponent {
 
 [CodeCraft - Parameterised Routes](https://codecraft.tv/courses/angular/routing/parameterised-routes/#_configuration)
 
-#### Q21. What are the HostListener decorators and the HostBinding decorator doing in this directive?
+## Q21. What are the HostListener decorators and the HostBinding decorator doing in this directive?
 
 ```ts
 @Directive({
@@ -339,7 +339,7 @@ export class CalloutDirective {
 
 [DigitalOcean](https://www.digitalocean.com/community/tutorials/angular-hostbinding-hostlistener)
 
-#### Q22. What Angular template syntax can you use on this template-driven form field to access the field value and check for validation within the template markup?
+## Q22. What Angular template syntax can you use on this template-driven form field to access the field value and check for validation within the template markup?
 
 ```html
 <input type="text" ngModel name="firstName" required minlength="4" />
@@ -354,7 +354,7 @@ export class CalloutDirective {
 1. [Angular.io -Show and hide validation error ](https://angular.io/guide/forms#show-and-hide-validation-error-messages)
 2. [Medium](https://medium.com/@agoiabeladeyemi/template-driven-forms-in-angular-4a3a5ad960de)
 
-#### Q23. What is the value type that will be stored in the headerText template reference variable in this markup?
+## Q23. What is the value type that will be stored in the headerText template reference variable in this markup?
 
 ```html
 <h1 #headerText>User List</h1>
@@ -367,7 +367,7 @@ export class CalloutDirective {
 
 [Pluralsight - Template reference variable](https://www.pluralsight.com/guides/how-to-use-template-reference-variables-in-angular)
 
-#### Q24. What is the difference, if any, of the resulting code logic based on these two provider configurations?
+## Q24. What is the difference, if any, of the resulting code logic based on these two provider configurations?
 
 ```ts
 [{ provide: FormattedLogger, useClass: Logger }][{ provide: FormattedLogger, useExisting: Logger }];
@@ -381,7 +381,7 @@ export class CalloutDirective {
 1. [Angular.io - Dependency Providers](https://angular.io/guide/dependency-injection-providers#defining-providers)
 2. [TektutorialHub](https://www.tektutorialshub.com/angular/angular-providers/)
 
-#### Q25. What is the purpose of the data property (seen in the example below) in a route configuration?
+## Q25. What is the purpose of the data property (seen in the example below) in a route configuration?
 
 ```ts
    {
@@ -399,7 +399,7 @@ export class CalloutDirective {
 1. [TektutorialsHub](https://www.tektutorialshub.com/angular/angular-pass-data-to-route/#:~:text=Angular%20allows%20us%20to%20pass,of%20the%20history%20state%20object)
 2. [StackOverflow](https://stackoverflow.com/a/36835156)
 
-#### Q26. How does the built-in `ngIf` structural directive change the rendered DOM based on this template syntax?
+## Q26. How does the built-in `ngIf` structural directive change the rendered DOM based on this template syntax?
 
 ```ts
 @Component({
@@ -418,7 +418,7 @@ export class ProductComponent {
 
 [Reference (angular.io)](https://angular.io/api/common/NgIf)
 
-#### Q27. What does this code accomplish?
+## Q27. What does this code accomplish?
 
 ```ts
 @NgModule({
@@ -438,7 +438,7 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 
 [Angular.io - The basic NgModule](https://angular.io/guide/ngmodules#the-basic-ngmodule)
 
-#### Q28. Which choice best describes what the _resolve_ property does in this route configuration?
+## Q28. Which choice best describes what the _resolve_ property does in this route configuration?
 
 ```ts
 {
@@ -457,7 +457,7 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 
 [angular.io](https://angular.io/api/router/Resolve)
 
-#### Q29. What is the purpose of the ContentChildren decorator in this component class?
+## Q29. What is the purpose of the ContentChildren decorator in this component class?
 
 ```ts
 @Component({
@@ -476,7 +476,7 @@ export class TabsListComponent {
 
 [betterprogramming.pub](https://betterprogramming.pub/understanding-contentchildren-with-an-example-e76ce78968db)
 
-#### Q30. In order for Angular to process components in an application, where do the component types need to be registered?
+## Q30. In order for Angular to process components in an application, where do the component types need to be registered?
 
 - [ ] within a script tag in the index.html file
 - [ ] in an NgModule decorator metadata tag named _components_
@@ -485,7 +485,7 @@ export class TabsListComponent {
 
 [angular.io](https://angular.io/guide/ngmodule-api#ngmodule-metadata)
 
-#### Q31. What is the purpose of the `fixture.detectChanges()` call in this unit test?
+## Q31. What is the purpose of the `fixture.detectChanges()` call in this unit test?
 
 ```ts
 TestBed.configureTestingModule({
@@ -507,7 +507,7 @@ expect(fixture.nativeElement.querySelector('h1').textContent).toContain(
 
 [angular.io](https://angular.io/api/core/testing/ComponentFixture#detectChanges)
 
-#### Q32. What will the URL segment look like based on the following call to the `Router.navigate` method when goToUser is passed the value 15?
+## Q32. What will the URL segment look like based on the following call to the `Router.navigate` method when goToUser is passed the value 15?
 
 ```ts
 export class ToolsComponent {
@@ -525,14 +525,14 @@ export class ToolsComponent {
 
 [angular.io](https://angular.io/api/router/Router#navigate)
 
-#### Q33. When a service is provided for root and is also added to the provider's configuration for a lazy-loaded module, what instance of that service does the injector provide to constructors in the lazy-loaded module?
+## Q33. When a service is provided for root and is also added to the provider's configuration for a lazy-loaded module, what instance of that service does the injector provide to constructors in the lazy-loaded module?
 
 - [x] A new instance of that service is created when the module is lazy loaded.
 - [ ] Providing a service of the same type at a lazy-loaded module level is not allowed.
 - [ ] If an instance of the service has not been created at the root level yet. it will create one there and then use it.
 - [ ] A single instance of that service is always instantiated at root and is the only one ever used, including within lazy modules.
 
-#### Q34. What is the HostBinding decorator doing in this directive?
+## Q34. What is the HostBinding decorator doing in this directive?
 
 ```ts
 @Directive({
@@ -550,14 +550,14 @@ export class HighlightDirective {
 
 [StackOverflow](https://stackoverflow.com/a/46207423)
 
-#### Q35. In reactive forms, what Angular form class type is used on the native DOM <form> element to wire it up?
+## Q35. In reactive forms, what Angular form class type is used on the native DOM <form> element to wire it up?
 
 - [ ] `FormArray`
 - [ ] `FormControl`
 - [x] `FormGroup`
 - [ ] `all of these answers`
 
-#### Q36. Assuming the username FormControl has been configured with a minLength validator, how can you set up an error display in the following reactive forms markup for the username field?
+## Q36. Assuming the username FormControl has been configured with a minLength validator, how can you set up an error display in the following reactive forms markup for the username field?
 
 ```html
 <form [formGroup]="form"›
@@ -599,7 +599,7 @@ export class HighlightDirective {
 
 [Codecraft](https://codecraft.tv/courses/angular/forms/template-driven/)
 
-#### Q37. How does the emulated view encapsulation mode handle CSS for a component?
+## Q37. How does the emulated view encapsulation mode handle CSS for a component?
 
 - [ ] It renders the CSS exactly how you wrote it without any changes.
 - [ ] It makes use of shadow DOM markup and CSS.
@@ -608,7 +608,7 @@ export class HighlightDirective {
 
 [Angular.io](https://angular.io/guide/view-encapsulation#inspecting-generated-css)
 
-#### Q38. With the following TestBed setup, what can be used to access the rendered DOM for the UserCardComponent?
+## Q38. With the following TestBed setup, what can be used to access the rendered DOM for the UserCardComponent?
 
 ```ts
 TestBed.configureTestingModule({
@@ -625,7 +625,7 @@ let fixture = TestBed.createComponent(UserCardComponent);
 1. [StackOverflow](https://stackoverflow.com/a/56504773)
 2. [Angular.io](https://angular.io/guide/testing-components-basics#nativeelement)
 
-#### Q39. Given these two components, what will get rendered to the DOM based on the markup usage?
+## Q39. Given these two components, what will get rendered to the DOM based on the markup usage?
 
 ```ts
 @Component({
@@ -685,7 +685,7 @@ export class BioComponent { }
 </app-card>
 ```
 
-#### Q40. Given the app-title-card component in the code below, what DOM will the app-user-card component render?
+## Q40. Given the app-title-card component in the code below, what DOM will the app-user-card component render?
 
 ```ts
 @Component({
@@ -737,7 +737,7 @@ export class BioComponent { }
 </div>
 ```
 
-#### Q41. Pick the matching code for the custom provider registration that the @Inject () decorator is looking for:
+## Q41. Pick the matching code for the custom provider registration that the @Inject () decorator is looking for:
 
 ```ts
 constructor(@Inject('Logger') private logger) { }
@@ -773,7 +773,7 @@ providers: [{ provide: 'Logger' }];
 2. [TektutorialHub](https://www.tektutorialshub.com/angular/angular-injector-injectable-inject/)
 3. [Angular.io - Dependency Injection In Action](https://angular.io/guide/dependency-injection-in-action#supply-a-custom-provider-with-inject)
 
-#### Q42. Which choice best describes the following usage of the HttpClient.get method in the getsettings class method?
+## Q42. Which choice best describes the following usage of the HttpClient.get method in the getsettings class method?
 
 ```ts
 export class SettingsService {
@@ -797,7 +797,7 @@ getSettings()
 1. [learnrxjs.io](https://www.learnrxjs.io/learn-rxjs/operators/error_handling/retry)
 2. [dev.to](https://dev.to/gparlakov/how-does-rxjs-retry-work-412p)
 
-#### Q43. When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
+## Q43. When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
 
 - [ ] Put the logic of that service method into the service constructor instead.
 - [x] Use a factory provider at the root AppModule level that depends on the service to call that service method.
@@ -807,7 +807,7 @@ getSettings()
 1. [Angular.io](https://angular.io/guide/dependency-injection-providers)
 2. [Stackoverflow](https://stackoverflow.com/questions/39803876/how-to-use-factory-provider)
 
-#### Q44. What statement best describes this usage of the TestBed?
+## Q44. What statement best describes this usage of the TestBed?
 
 ```ts
 const spy = jasmine.createSpyObj('DataService', ['getUsersFromApi']);
@@ -824,7 +824,7 @@ const userService = TestBed.get(UserService);
 - `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
   `Although it will work when multiple providers in this configuration are asserted against in a single test.`
 
-#### Q45. What is the primary difference between a component and a directive?
+## Q45. What is the primary difference between a component and a directive?
 
 - [ ] A component uses a selector metadata property and a directive does not.
 - [ ] A directive can be used for adding custom events to the DOM and a component cannot.
@@ -833,7 +833,7 @@ const userService = TestBed.get(UserService);
 
 [StackOverflow](https://stackoverflow.com/a/34616190)
 
-#### Q46. What could you add to this directive class to allow the truncate length to be set during directive usage in markup?
+## Q46. What could you add to this directive class to allow the truncate length to be set during directive usage in markup?
 
 ```ts
 @Directive({
@@ -855,7 +855,7 @@ export class TruncateDirective {
 1. [Angular.io](https://angular.io/guide/attribute-directives#passing-values-into-an-attribute-directive)
 2. [StackOverflow](https://stackoverflow.com/a/46303049)
 
-#### Q47. How can you pass query parameters to this `HttpClient.get` request?
+## Q47. How can you pass query parameters to this `HttpClient.get` request?
 
 ```ts
 export class OrderService {
@@ -887,7 +887,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 1. [StackOverflow](https://stackoverflow.com/a/34475594)
 2. [TektutorialHub](https://www.tektutorialshub.com/angular/angular-pass-url-parameters-query-strings/#httpparams)
 
-#### Q48. Assuming the `DataService` has been registered in the providers for the application, which answer best describes what happens based on this component's constructor?
+## Q48. Assuming the `DataService` has been registered in the providers for the application, which answer best describes what happens based on this component's constructor?
 
 ```ts
 @Component({
@@ -907,7 +907,7 @@ export class OrderHistoryComponent {
 1. [StackOverflow](https://stackoverflow.com/a/49755822)
 2. [Angular.io - Dependency Injection](https://angular.io/guide/dependency-injection)
 
-#### Q49. Finish this markup using the `ngIf` directive to implement an else case that will display the text "User is not active":
+## Q49. Finish this markup using the `ngIf` directive to implement an else case that will display the text "User is not active":
 
 ```ts
 <div *ngIf="userIsActive; else inactive">
@@ -947,7 +947,7 @@ export class OrderHistoryComponent {
 
 [Angular.io](https://angular.io/api/common/NgIf)
 
-#### Q50. What is the correct syntax for a route definition to lazy load a feature module?
+## Q50. What is the correct syntax for a route definition to lazy load a feature module?
 
 - [ ] A
 
@@ -987,7 +987,7 @@ export class OrderHistoryComponent {
 
 [Angular.io - Lazy Loading Modules](https://angular.io/guide/lazy-loading-ngmodules)
 
-#### Q51. Describe how the validation is set up and configured in this reactive forms example:
+## Q51. Describe how the validation is set up and configured in this reactive forms example:
 
 ```ts
 export class UserFormControl implements OnInit {
@@ -1012,7 +1012,7 @@ export class UserFormControl implements OnInit {
 1. [Angular.io - Form Validation](https://angular.io/guide/form-validation)
 2. [Angular University Blog](https://blog.angular-university.io/angular-custom-validators/)
 
-#### Q52. What does the Injectable decorator do on this service class?
+## Q52. What does the Injectable decorator do on this service class?
 
 ```ts
 @Injectable({
@@ -1028,7 +1028,7 @@ export class DataService { }
 
 [Angular.io](https://angular.io/guide/providers#providing-a-service)
 
-#### Q53. Describe the usage of this code
+## Q53. Describe the usage of this code
 
 ```ts
 export interface AppSettings {
@@ -1043,7 +1043,7 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 - [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be used on constructor parameters via an @AppSettings decorator.
 - [ ] This code has an error since you cannot use a TypeScript interface for the generic type on the InjectionToken
 
-#### Q54. For the following template-driven forms example, what argument can be passed to the submit method in the click event to submit the data for the form?
+## Q54. For the following template-driven forms example, what argument can be passed to the submit method in the click event to submit the data for the form?
 
 ```ts
 <form #form="ngForm">
@@ -1058,7 +1058,7 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 - [ ] submit(ngForm.value)
 - [ ] submit(FirstName, lastName)
 
-#### Q55. What is the purpose of the `prelodingStrategy` property configuration in this router code?
+## Q55. What is the purpose of the `prelodingStrategy` property configuration in this router code?
 
 ```ts
 RouterModule.forRoot(
@@ -1081,7 +1081,7 @@ References:
 - [Custom preloading strategy](https://www.concretepage.com/angular-2/angular-custom-preloading-strategy#Preloading)
 - [Preloading strategy, save loading time](https://medium.com/geekculture/preloading-strategy-in-angularsave-loading-time-ca791074fe28)
 
-#### Q56. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
+## Q56. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
 
 ```html
 <h1 [title]="userName">Current user is {{ userName }}</h1>
@@ -1092,7 +1092,7 @@ References:
 - [ ] title="{{ 'userName' }}"
 - [ ] The only way to do it is by using the square brackets.
 
-#### Q57. What is the `async` pipe doing in this example?
+## Q57. What is the `async` pipe doing in this example?
 
 ```ts
 @Component({
@@ -1113,7 +1113,7 @@ export class UsersComponent implements OnInit {
 - [x] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
 - [ ] It is allowing all of the users in the `users` field to be rendered concurrently to the DOM.
 
-#### Q58. How would you make use of this directive in markup based on its selector value
+## Q58. How would you make use of this directive in markup based on its selector value
 
 ```ts
 @Directive({
@@ -1129,7 +1129,7 @@ export class TruncateDirective{
 - [ ] `html <p app-truncate>Some long text</p> `
 - [ ] `html <app-truncate>Some long text</app-truncate> `
 
-#### Q59. What lifecycle hook can be used on a component to monitor all changes to @Input values on that component?
+## Q59. What lifecycle hook can be used on a component to monitor all changes to @Input values on that component?
 
 - [ ] ngOnInit
 - [ ] ngChanges
@@ -1138,7 +1138,7 @@ export class TruncateDirective{
 
 [How to detect when an @Input() value changes in Angular?](https://stackoverflow.com/a/44686085/1573267)
 
-#### Q60. What would be an example template syntax usage of this custom pipe?
+## Q60. What would be an example template syntax usage of this custom pipe?
 
 ```ts
 @Pipe({ name: 'truncate' })
@@ -1157,14 +1157,14 @@ export class TruncatePipe implements PipeTransform {
 
 [How do I call an Angular 2 pipe with multiple arguments?] (https://stackoverflow.com/questions/36816788/how-do-i-call-an-angular-2-pipe-with-multiple-arguments)
 
-#### Q61. Which Angular CLI command would you run to generate a UsersComponent and add it to the SharedModule (in file shared.module.ts in your application)?
+## Q61. Which Angular CLI command would you run to generate a UsersComponent and add it to the SharedModule (in file shared.module.ts in your application)?
 
 - [ ] ng generate component --newModule=shared
 - [x] ng generate component users --module=shared
 - [ ] ng generate component users --shared
 - [ ] ng generate component --add=shared
 
-#### Q62. How can you rewrite this markup so the div container is not needed in the final DOM render
+## Q62. How can you rewrite this markup so the div container is not needed in the final DOM render
 
 ```ts
 <div *ngIf="location">
@@ -1209,7 +1209,7 @@ export class TruncatePipe implements PipeTransform {
 </ng-container>
 ```
 
-#### Q63. Describe the usage of this code:
+## Q63. Describe the usage of this code:
 
 ```ts
 export interface AppSettings {
@@ -1223,7 +1223,7 @@ export interface AppSettings {
 - [ ] The InjectionToken is adding an instance of the AppSettings to the roote provider via the the InjectionToken constructor call, making it auto available to all NgModules, services, and componentts throughtout the Angular application without the need to inject it anywhere.
 - [x] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator.
 
-#### Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
+## Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
 
 - [ ] By.css() helper method is needed
 - [ ] A text fixture is required to run the service for the unit test.
@@ -1232,7 +1232,7 @@ export interface AppSettings {
 
 [Angular unit tests](https://angular.io/guide/testing-services) - recheck answers
 
-#### Q65. What is the difference between the CanActivate and the CanLoad route guards?
+## Q65. What is the difference between the CanActivate and the CanLoad route guards?
 
 - [ ] CanActivate is used to check access. CanLoad is used to preload data for the route.
 - [x] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested.
@@ -1241,7 +1241,7 @@ export interface AppSettings {
 
 [CanActivate vs Canload](https://stackoverflow.com/questions/42026045/difference-between-angulars-canload-and-canactivate#:~:text=canActivate%20is%20used%20to%20prevent,not%20authorized%20to%20do%20so.) CanActivate prevents access on routes, CanLoad prevents lazy loading.
 
-#### Q66. What is the outlet property used for in this router definition object?
+## Q66. What is the outlet property used for in this router definition object?
 
 ```ts
 {
@@ -1258,7 +1258,7 @@ export interface AppSettings {
 
 [Angular-outlet](https://angular.io/api/router/RouterOutlet) - recheck answer
 
-#### Q67. In this template syntax, every time the items property is changed (added to, removed from, etc.), the ngFor structural directive re-runs its logic for all DOM elements in the loop. What syntax can be used to make this more performant?
+## Q67. In this template syntax, every time the items property is changed (added to, removed from, etc.), the ngFor structural directive re-runs its logic for all DOM elements in the loop. What syntax can be used to make this more performant?
 
 ```javascript
 <div *ngFor="let item of items">
@@ -1273,7 +1273,7 @@ export interface AppSettings {
 
 [StackOverflow - How to use `trackBy` with `ngFor`](https://stackoverflow.com/a/58025894)
 
-#### Q68. What does this Angular CLI command do?
+## Q68. What does this Angular CLI command do?
 
 ```bash
 ng build --configuration=production --progress=false
@@ -1286,14 +1286,14 @@ ng build --configuration=production --progress=false
 
 [Angular documentation - `ng build`](https://angular.io/cli/build#:~:text=%2D%2D-,progress,-Log%20progress%20to)
 
-#### Q69. Service classes can be registered as providers via which decorators?
+## Q69. Service classes can be registered as providers via which decorators?
 
 - [ ] @Injectable, @NgModule, @Component, and @Directive.
 - [x] @Injectable only.
 - [ ] @Injectable and @NgModule only.
 - [ ] @Service and @NgModule only.
 
-#### Q70. What is the Input decorator used for in this component class?
+## Q70. What is the Input decorator used for in this component class?
 
 ```javascript
 @Component({
@@ -1312,7 +1312,7 @@ export class ProductNameComponent {
 - [ ] It provides a way to bind values to the productName instance field,just like native DOM element property bindings.
       [Angular documentation - `Input()`](https://angular.io/guide/inputs-outputs)
 
-#### Q71. Which route guard can be used to mediate navigation to a route?
+## Q71. Which route guard can be used to mediate navigation to a route?
 
 - [x] all of these answers.
 - [ ] CanDeactivate.
@@ -1320,7 +1320,7 @@ export class ProductNameComponent {
 - [ ] CanActivate.
       [Angular documentation - `Input()`](https://angular.io/guide/inputs-outputs)
 
-#### Q72. How can you configure the injector to use an existing object for a token instead of having it instantiate a class instance?
+## Q72. How can you configure the injector to use an existing object for a token instead of having it instantiate a class instance?
 
 - [x] Use the `useValue` provider configuration and set that equal to an existing object or an object literal.
 - [ ] It is not possible. Providers can be configured only with class types.
@@ -1329,7 +1329,7 @@ export class ProductNameComponent {
 
 [Configuring dependency providers](https://angular.io/guide/dependency-injection-providers)
 
-#### Q73. Based on this route definition, what can be injected into UserDetailComponent constructor to get ahold of the id route parameter?
+## Q73. Based on this route definition, what can be injected into UserDetailComponent constructor to get ahold of the id route parameter?
 
 ```ts
 {path: 'user/:id', component: UserDetailComponent }
@@ -1342,7 +1342,7 @@ export class ProductNameComponent {
 
 [Common Routing Tasks](https://angular.io/guide/router#observable-parammap-and-component-reuse)
 
-#### Q74. With the following reactive form markup, what would you add to wire up a call to an onSubmit class method?
+## Q74. With the following reactive form markup, what would you add to wire up a call to an onSubmit class method?
 
 ```html
 <form [formGroup]="form">
@@ -1358,7 +1358,7 @@ export class ProductNameComponent {
 
 [Angular - Forms](https://angular.io/guide/forms)
 
-#### Q75. What is the expected DOM code for this usage of the ngClass attribute directive when isActive is true?
+## Q75. What is the expected DOM code for this usage of the ngClass attribute directive when isActive is true?
 
 ```html
 <div [ngClass]="{ ‘active-item': isActive }">Item One</div>
@@ -1371,7 +1371,7 @@ export class ProductNameComponent {
 
 [Angular - NgClass](https://angular.io/api/common/NgClass)
 
-#### Q76. Which answer best explains the usage of ngModel in this template code?
+## Q76. Which answer best explains the usage of ngModel in this template code?
 
 ```html
 <input [(ngModel)]="user.name" />
@@ -1384,7 +1384,7 @@ export class ProductNameComponent {
 
 [Angular - NgModel](https://angular.io/api/forms/NgModel)
 
-#### Q77. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
+## Q77. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
 
 - [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
 - [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
@@ -1393,7 +1393,7 @@ export class ProductNameComponent {
 
 [Angular - Reactive Forms](https://angular.io/guide/reactive-forms)
 
-#### Q78. What other template syntax (replacing the ngClass directive) can be used to add or remove the CSS class names in this markup?
+## Q78. What other template syntax (replacing the ngClass directive) can be used to add or remove the CSS class names in this markup?
 
 ```html
 <span [ngClass]="{ 'active': isActive, 'can-toggle': canToggle }"> Employed </span>
@@ -1425,7 +1425,7 @@ export class ProductNameComponent {
 <span [css.class.active]="isActive" [css.class.can-toggle]="canToggle"> Employed </span>
 ```
 
-#### Q79. In this directive decorator example, what is the purpose of the multi property in the provider object literal?
+## Q79. In this directive decorator example, what is the purpose of the multi property in the provider object literal?
 
 ```ts
 @Directive({
@@ -1448,19 +1448,19 @@ export class CustomValidatorDirective implements Validator {}
 
 [StackOverflow](https://stackoverflow.com/questions/38144641/what-is-multi-provider-in-angular2)
 	
-#### Q80. Which Angular CLI command would you use to run your unit tests in a process that reruns your test suite on file changes?
+## Q80. Which Angular CLI command would you use to run your unit tests in a process that reruns your test suite on file changes?
 - [ ] ng test --single-run=false
 - [ ] ng test --watch-files
 - [ ] ng test --progress
 - [x] ng test
 	
-#### Q81. What is the most common use for the ngOnDestory lifecle hook?
+## Q81. What is the most common use for the ngOnDestroy lifecycle hook?
 - [ ] Remove dome elements from the components's view
 - [ ] All of theses answers
 - [ ] Delete any injected serviced the
-- [x] Unsubscribe from obervables and detach
+- [x] Unsubscribe from observables and detach
 	
-#### Q82. What NgModule decorator metadata property is leverage to allow other ....?
+## Q82. What NgModule decorator metadata property is leverage to allow other ....?
 
 - [ ] public
 - [ ] experts
