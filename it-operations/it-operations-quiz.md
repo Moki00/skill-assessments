@@ -1,7 +1,7 @@
 ## IT Operations
 
 ## Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?
-
+**Dynamic Host Configuration Protocol**
 - [x] A
 
 - Reset administrator password.
@@ -30,35 +30,35 @@
 
 ## Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?
 
-- [ ] Yes. The DisplayPort cable plugs directly into the USB connector.
-- [x] Yes. An adapter or dongle may be required.
-- [ ] No. While you can rig a connection, video quality will be poor.
-- [ ] No. The two standards are incompatible.
+- [ ] ~~Yes. The DisplayPort cable plugs directly into the USB connector.~~
+- [xo] Yes. An adapter or dongle may be required.
+- [ ] ~~No. While you can rig a connection, video quality will be poor.~~
+- [ ] ~~No. The two standards are incompatible.~~
 
 ## Q3. What is the I/O panel?
 
 - [ ] the location where expansion cards can connect to peripherals
-- [x] a cluster of ports and connectors found on the back of the computer case
+- [xo] a cluster of ports and connectors found on the back of the computer case
 - [ ] the switches that turn on, sleep, and turn off the computer
 - [ ] the portion of the motherboard where non-power cables connect
 
-## Q4. The computer consistently boots into Safe Mode. How would you address this issue?
+## Q4. The computer **consistently** boots into Safe Mode. How would you address this issue?
 
-- [ ] Edit the Registry key that controls the boot sequence.
-- [ ] Hold the Shift key as Windows boots.
-- [ ] Check the MSCONFIG utility to ensure that Normal boot is selected.
-- [x] Fix the issue in Safe Mode that is causing the system to restart in this mode.
+- [ ] Edit the Registry key that controls the boot sequence
+- [ ] Hold the Shift key as Windows boots
+- [ ] Check the MSCONFIG utility to ensure that Normal boot is selected
+- [xo] Fix the issue in Safe Mode that is causing the system to restart in this mode
 
 ## Q5. Which choice is not a typical adjustment found on a monitor?
 
-- [x] resolution
+- [xo] resolution
 - [ ] color temperature
 - [ ] contrast
 - [ ] brightness
 
 ## Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?
 
-- [x] A
+- [xo] A
 
 1. Modem
 2. Gateway
@@ -79,7 +79,7 @@
 
 ## Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?
 
-- [x] Limit access to specific MAC addresses.
+- [xo] Limit access to specific MAC addresses.
 - [ ] Do not broadcast the SSID.
 - [ ] Apply a metered connection.
 - [ ] Apply a password.
@@ -89,27 +89,27 @@
 - [ ] WAN
 - [ ] USB
 - [ ] LAN
-- [x] uplink
+- [xo] uplink
 
 ## Q9. The recent Windows update introduced some quirks in the system. How can you enter the Windows Recovery Environment to recover from the update?
 
-- [x] Hold the Shift key when selecting the **Restart** command.
+- [xo] Hold the Shift key when selecting the **Restart** command.
 - [ ] Restart in Safe Mode where the Recovery item is located on the Start menu.
-- [ ] Press the any key at the boot screen.
+- [ ] ~~Press the any key at the boot screen.~~
 - [ ] Go to the Task Manager **Startup** tab.
 
 ## Q10. Which components are typically found on the motherboard?
 
-- [x]
+- [xo]
   basic I/O
   graphics
-  NIC
+  NIC = network interface controller
   battery
   expansion slots
 
 - [ ]
   basic I/O
-  cooling
+  **cooling**
   NIC
   graphics
   expansion slots
@@ -118,56 +118,56 @@
   basic I/O
   graphics
   NIC
-  mass storage
+  **mass storage**
   expansion slots
 
 - [ ]
   basic I/O
   graphics
   NIC
-  power supply
+  **power supply**
   expansion slots
 
 ## Q11. What does the acronym RAID refer to?
 
 - [ ] Repeating Architecture for Internal Drives
 - [ ] Recoverable Advanced Integration and Duplication
-- [x] Redundant Array of Independent Disks
+- [xo] **Redundant** Array of Independent Disks
 - [ ] Replicated Array of Internal Devices
 
 ## Q12. To which internal component does the illustrated (P1) connector attach?
 
 ![Q12](images/Q12.jpg)
 
-- [x] motherboard
+- [xo] motherboard
 - [ ] I/O panel
 - [ ] power supply
 - [ ] primary mass storage
 
 ## Q13. Your computer boots at very low resolution that cannot be increased through display settings. What is the most likely solution?
 
-- [ ] The connection between the display and the computer is loose.
-- [x] You need to reinstall the display drivers.
-- [ ] You need to replace your monitor.
-- [ ] Some of your RAM is failing.
+- [ ] The connection between the display and the computer is loose
+- [xo] You need to reinstall the display drivers
+- [ ] You need to replace your monitor
+- [ ] Some of your RAM is failing
 
-## Q14. To which choice can the wget program be considered similar?
+## Q14. To which choice can the **wget** program be considered similar?
 
 - [ ] tracert
 - [ ] netstat
 - [ ] ping
-- [x] cURL
+- [xo] cURL = command-line tools used to retrieve data from internet: curl supports protocols including HTTP, HTTPS, FTP, FTPS, SCP, SFTP
 
 ## Q15. Does an incognito window prevent websites from tracking your activity on the web?
 
 - [ ] No. Incognito mode only prevents the site from appearing in your browser history.
 - [ ] Yes. Incognito mode encrypts data packets, making it difficult for websites to track your activity.
-- [x] No. Some websites track by ID, and if you sign into a site even in incognito, your activity is known.
+- [xo] No. Some websites track by ID, and **if you sign into** a site even in incognito, your activity is known
 - [ ] Yes. Incognito mode blocks all cookies and tracking IDs and suppresses browser history.
 
 ## Q16. What must you confirm before performing a processor upgrade?
 
-- [x] The new processor is compatible with the current motherboard.
+- [xo] The new processor is **compatible** with the current motherboard.
 - [ ] The new processor is the same type as the old.
 - [ ] The new processor is compatible with the operating system.
 - [ ] The new processor fits into the old processor's slot.
@@ -175,59 +175,59 @@
 ## Q17. Which type of storage has the fastest data access speeds?
 
 - [ ] Secure Sockets Layer drive
-- [x] solid-state drive
+- [xo] solid-state drive
 - [ ] serial attached storage device
 - [ ] SCSI drive
 
-## Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing/connection process. What is the peripheral, most likely?
+## Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing process. What is the peripheral, most likely?
 
 - [ ] keyboard
-- [x] all of these answers
+- [xo] all of these answers
 - [ ] mouse
 - [ ] headset
 
-## Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?
+## Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do **first**?
 
 - [ ] Run a file check daily.
 - [ ] Obtain an extended warranty.
-- [x] Back up his data.
+- [xo] Back up his data
 - [ ] Ensure that the system is protected against malware.
 
 ## Q20. What is one difference between a drive and media?
 
-- [ ] The drive is where the data is stored and the media is the data itself.
-- [x] A drive is hardware that reads media.
+- [ ] The drive is where the data is stored and the media ~~is the data~~ itself.
+- [xo] A drive is **hardware** that reads media.
 - [ ] These are two terms for the same thing: storage.
 - [ ] The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.
 
 [reference](https://en.wikipedia.org/wiki/Disk_storage): a drive is a device capable of interacting with data recorded on a media; this media can be removable or non-removable.
 
-## Q21. Mass storage inside a desktop computer case is usually found where?
+## Q21. Mass storage inside a desktop computer case is **usually** found where?
 
 - [ ] in an expansion slot
 - [ ] attached to the front of the case
-- [x] in a drive cage
+- [xo] in a drive cage = in a separate pocket near the motherboard
 - [ ] on the motherboard
 
 ## Q22. Which statement about a modular power supply is true?
 
 - [ ] It is built from a cluster of smaller, easier-to-install power supplies.
 - [ ] Its power output can be varied to save electricity.
-- [x] Its cables are detachable.
+- [xo] Its cables are detachable.
 - [ ] It has dedicated power reserved for different computer components.
 
-## Q23. Which program controls the Windows startup sequence?
+## Q23. Which program controls the Windows **startup** sequence?
 
-- [x] MSCONFIG
+- [xo] MSCONFIG
 - [ ] Task Manager
 - [ ] the Computer Management Console
-- [ ] the UEFI
+- [ ] the UEFI = BIOS before OS
 
 ## Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?
 
 - [ ] DRAM is failing.
-- [x] A program has a memory leak.
-- [ ] There is no problem. It's normal for available memory to decrease the longer you use the system.
+- [xo] A program has a memory leak.
+- [ ] ~~There is no problem. It's normal for available memory to decrease the longer you use the system.~~
 - [ ] Another user has signed into the system
 
 ## Q25. Which type of power connector is this?
@@ -241,7 +241,7 @@
 
 ## Q26. What is the most important thing to do before opening a computer case?
 
-- [x] Turn off and unplug the computer.
+- [xo] Turn off and unplug the computer.
 - [ ] Disconnect all of the cables.
 - [ ] Close your programs, sign out of your account, and turn off the computer.
 - [ ] Ground yourself.
@@ -257,7 +257,7 @@
 
 - [ ] BIOS = computer equivalent of an automobile's starter; part of the motherboard's hardware, independent of any OS
 - [ ] RJ-45 = Ethernet wires have an RJ45 connector on each end
-- [x] NIC = Network interface controller
+- [xo] NIC = Network interface controller
 - [ ] Router
 
 ## Q29. Networking wire is referred to as **\_**
@@ -292,7 +292,7 @@
 
 ## Q33. You think that the Internet is down. How can you know for certain?
 
-- [x] all of these answers.
+- [xo] all of these answers.
 - [ ] You cannot reach any websites.
 - [ ] The power is out.
 - [ ] The lights on the modem are off.
@@ -306,7 +306,7 @@
 
 ## Q35. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?
 
-- [xo] The URL is HTTPS.
+- [xo] The URL is HTTPS
 - [ ] You are using an incognito window.
 - [ ] The site requires a login and password.
 - [ ] You can't tell because a website's security settings are not readily apparent in a browser window.
@@ -348,60 +348,60 @@
 
 ## Q41. Ally is about to update a software driver. What would be a wise thing to do first?
 
-- [x] Back up all files = wise
+- [xo] Back up all files = wise
 - [ ] Save data and close programs = always
 - [ ] Remove the older driver
 - [ ] ~~Sign out of the operating system~~
 
 ## Q42. What is the process of moving data and programs from an old computer to a new one called?
 
-- [x] migration
-- [ ] An official term does not exist, though it is colloquieally referred to as a "brain transplant."
-- [ ] profile transfer
-- [ ] account cloning
+- [xo] migration
+- [ ] brain transplant = i need one now
+- [ ] profile transfer = change accounts
+- [ ] account cloning = scam
 
 [reference](https://en.wikipedia.org/wiki/PC_migration)
 
 ## Q43. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?
 
-- [ ] Do nothing. Wait until service is restored.
-- [ ] Restart all computers on the network.
-- [ ] Restart the gateway (router).
-- [x] Restart the modem.
+- [ ] Do nothing. Wait until service is restored = cry
+- [ ] Restart all computers on the network = the local network...
+- [ ] Restart the gateway (router) = wifi
+- [xo] Restart the modem = the best box in the house
 
 ## Q44. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?
 
-- [ ] Task Manager
-- [x] Event Viewer
-- [ ] Perfomance Monitor
-- [ ] Resource Monitor
+- [ ] Task Manager = ctrl + shift + esc
+- [xo] Event Viewer = eventvwr
+- [ ] Performance Monitor = perfmon.exe
+- [ ] Resource Monitor = resmon
 
-## Q45. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Which connection type would be an unsuitable choice?
+## Q45. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Which connection type would be an **unsuitable** choice?
 
 - [ ] DSL
 - [ ] fiber optic
 - [ ] cable
-- [x] dial-up
+- [xo] dial-up = I remember AOL Online
 
 ## Q46. What is a fixed disk
 
 - [ ] mass storage that has been repaired
-- [x] nonremovable mass storage
+- [xo] non-removable mass storage = hard disk
 - [ ] any internal mass storage device
 - [ ] any mass storage device that is not a SSD
 
 ## Q47. What are the long-term and short-term categories of storage in a computer?
 
-- [x] memory and permanent (drive) storage
-- [ ] SSD and HDD
-- [ ] RAM and ROM
-- [ ] standard memory and cache memory
+- [xo] memory and permanent (drive) storage
+- [ ] SSD and HDD = fast and slow
+- [ ] RAM and ROM = volatile and non-volatile
+- [ ] standard memory and cache memory = cache is faster, cheaper, and smaller than RAM
 
 [Reference](https://pediaa.com/difference-between-short-term-and-long-term-memory/)
 
 ## Q48. What is referred to by SSID?
 
-- [x] Service Set Identifier, a wireless network's name
+- [xo] **Service Set Identifier**, a wireless network's name = works with network password for WiFi
 - [ ] an older security protocol for Wi-Fi networks
 - [ ] the server-side ID used to identify devices on a network
 - [ ] the MAC address broadcast for a wireless network
@@ -413,42 +413,42 @@
 - [ ] Gray: microphone / Black: speakers
 - [ ] Red: microphone / Green: speakers
 - [ ] Green: microphone / Pink: speakers
-- [x] Green: speakers / Pink: microphone
+- [xo] Green: speakers / Pink: microphone
 
 ## Q50. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
 
 - [ ] Alt (Windows) or Option (Mac)
-- [ ] Meta
-- [x] Fn
+- [ ] ~~Meta~~
+- [xo] Fn = i hate these keyboards
 - [ ] Shift
 
 ## Q51. You power up your computer and it starts in Safe Mode. What should you do?
 
-- [ ] Restart the computer
-- [ ] Work as you normally do until the problem is resolved
-- [ ] Reconfigure the startup sequence so that the system starts again normally
-- [x] Determine the cause and address the issue
+- [o] **Restart** the computer = first
+- [ ] Work as you normally do until the problem is resolved = no
+- [ ] Reconfigure the startup sequence so that the system starts again normally = no
+- [x?] Determine the cause and address the issue = second
 
-Idea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue.
+quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue.
 
 ## Q52. Which security tool can be doubled up to offer additional protection without being redundant?
 
-- [ ] account protection
-- [ ] firewall
-- [ ] antivirus
-- [x] backup
+- [ ] account protection = redundant
+- [ ] firewall = redundant
+- [ ] antivirus = redundant
+- [xo] backup
 
 ## Q53. The mouse pointer is behaving erratically. What should you do first?
 
-- [ ] Use the keyboard instead
+- [ ] Use the keyboard instead = pro level
 - [ ] Restart the computer
-- [x] Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface
-- [ ] Disassemble the mouse to look for loose parts or corrosion
+- [xo] Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface
+- [ ] Disassemble the mouse to look for loose parts or corrosion = not that ball
 
 ## Q54. How many wire pairs are in a CAT-5 cable?
 
 - [ ] 8
-- [x] 4
+- [xo] 4
 - [ ] 5
 - [ ] 16
 
